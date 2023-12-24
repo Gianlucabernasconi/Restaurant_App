@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextCantidadCazuela"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="156dp"
+        android:hint="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextCantidadPorotos"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="104dp"
+        android:hint="0"
+        app:layout_constraintStart_toStartOf="@+id/editTextCantidadCazuela"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCantidadEmpanadas"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewTotal"
+        android:layout_width="99dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="568dp"
+        android:layout_marginEnd="96dp"
+        android:text="preciocomida1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="92dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="20dp"
+        android:text="valor"
+        app:layout_constraintStart_toStartOf="@+id/textViewPropina"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPropina" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="55dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="10dp"
+        android:text="Can"
+        app:layout_constraintStart_toStartOf="@+id/textViewPlato3"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlato3" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="53dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Can"
+        app:layout_constraintStart_toStartOf="@+id/textViewPlato2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlato2" />
+
+
+    <EditText
+        android:id="@+id/editTextCantidadEmpanadas"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="100dp"
+        android:hint="0"
+        app:layout_constraintStart_toStartOf="@+id/editTextCantidadCazuela"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCantidadCazuela"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="568dp"
+        android:text="Comida"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Total"
+        app:layout_constraintStart_toStartOf="@+id/switch1"
+        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="102dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textViewPlato1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="140dp"
+        android:text="Plato 1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="53dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Can"
+        app:layout_constraintStart_toStartOf="@+id/textViewPlato1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlato1" />
+
+
+    <TextView
+        android:id="@+id/textViewPropina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="total propina"
+        app:layout_constraintStart_toStartOf="@+id/textViewTotal"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTotal" />
+
+    <TextView
+        android:id="@+id/textViewPlato2"
+        android:layout_width="48dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="292dp"
+        android:text="Plato 2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewPlato3"
+        android:layout_width="65dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="444dp"
+        android:text="Plato 3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewPrecio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Precio"
+        app:layout_constraintStart_toStartOf="@+id/textViewPlato1"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewPrecio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Precio"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:ignore="MissingConstraints" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="108dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:minHeight="48dp"
+        android:text="Propina"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textViewPrecio3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Precio"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="128dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cazuela" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="122dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/empanadas" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="128dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="35dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/porotos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
